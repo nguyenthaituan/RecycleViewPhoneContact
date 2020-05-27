@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/itemADD"
+        android:title="ADD"
+        android:icon="@drawable/icon_image_add"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:icon="@drawable/icon_image_close"
+        app:showAsAction="ifRoom"
+        android:id="@+id/Close"
+        android:title="Close" />
+</menu>
